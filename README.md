@@ -1,58 +1,66 @@
+
 # Note Zipper
-<table>
-<tr>
-<td>
-  Note Zipper provides you one safe place for all your notes.
-</td>
-</tr>
-</table>
 
-# ![Note Zipper](https://github.com/Piyush55dude/notezipper/blob/master/images/landing.png)
+A google keep inspired note keeping web app written in REACT JS with REACTJS BOOTSTRAP.
+The backend is a NODEJS server with MONGODB as database.
+The server implementation is completed with Token based authentication implemented using JWT.
 
-## [Click Here to Watch Full tutorial on Youtube](https://www.youtube.com/watch?v=IQXjO0t4XRM&list=PLKhlp2qtUcSYC7EffnHzD-Ws2xG-j3aYo)
-![MERN 1](https://user-images.githubusercontent.com/51760520/124705210-ea67ab00-df12-11eb-88cd-e9060c2942b9.png)
 
-## Demo
-Here is a working live demo :  https://notezipper.herokuapp.com/
+## Features
 
-## Site
+🔐 Login & 🔏 Register for creating a new user
 
-### Landing Page
+📲 Responsive Design - Adapts all screen sizes from mobile screens up to 4k displays
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/landing.png)
+📝 Notes - Create, Update, Copy, Delete items on the fly.
 
-### Login Form
-You can register a new account or login with an existing one.
+🚥 Colors - Assign colors to Notes & adapts to dark/light theme
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/login.png)
+🔗 Subscriptions - When notes are created/deleted in different browser tabs, the updates are pushed from server to client
+## Libraries Used
 
-### Edit Profile
+Frontend
+ReactJS - See Web source
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/profile.png)
+Complete frontend JS framework
 
-### Create a Note
+Follows React Hooks pattern
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/create.png)
+React Bootstrap 
 
-### All Notes
+Follows the new React Bootstrap Docs guidelines.
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/allnotes.png)
+For client-side (browser) routing
 
-### Edit Note
+Axios - React Hooks - See Login.js
 
-![](https://github.com/Piyush55dude/notezipper/blob/master/images/edit.png)
+React-hook based extension for Axios
 
-## Built with 
+Backend
+Node JS - 
 
-- [React JS](https://reactjs.org/)
-- [Node JS](https://nodejs.org/) 
-- [Express JS](https://expressjs.com/)
-- [Mongo DB](https://www.mongodb.com/)
-- [Bootstrap](http://getbootstrap.com/)
+EXPRESS JS - 
 
-## Team
+MONGO DB - 
 
-[![Piyush Agarwal](https://avatars1.githubusercontent.com/u/51760520?v=3&s=144)](https://github.com/piyush-eon)
+JSON WEB TOKEN - 
 
-MIT © [Piyush Agarwal ](https://github.com/piyush-eon)
+Deployment
 
+## How to Setup and Build
+
+Manual
+
+Clone the Git repository
+
+git clone https://github.com/puspenderkr/mern-note-zipper.git
+
+Download and Install Visual Studio Code
+
+Start the NODE server in Debug mode. See package.json
+Press 'Ctrl + ~'-> 'cd backend' -> 'npm install' -> 'npm start OR nodemon index.js'
+Launches https://localhost:5000 in the browser
+
+Start the REACT APP in Debug mode.
+Press 'Ctrl + ~'->'cd frontend' 'npm install' -> 'npm start'
+Launches https://localhost:3000 in the browser
